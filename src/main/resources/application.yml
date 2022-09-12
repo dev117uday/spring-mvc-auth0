@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: gYsLURN55sgMlAMqnbbdeI9FdiPhtbGF
+            client-secret: CEB2XVSG3YaYM4TDxUjex793ME6V4_0Q2PI-Rle0IzdnbArtfDirkGy2xe-qBpCd
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          auth0:
+            issuer-uri: https://yadav117uday.eu.auth0.com/
