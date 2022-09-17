@@ -36,3 +36,6 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 ```
+
+- Allowed callback URL ( on auth0 site ) : `http://localhost:8080/login/oauth2/code/auth0`
+- Allowed Logout URL ( on auth0 site  ) : `http://localhost:8080/`
